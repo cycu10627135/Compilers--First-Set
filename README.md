@@ -27,3 +27,8 @@ First 的定義如下：
 ※此題規則不會有遞迴的情況。  
   
 ## Output Format
+依照 ASCII 編碼由小到大排序`Nonterminal`和`First Set`並印出。  
+每行開頭為`Nonterminal`，隔一個空白後印出對應的`First Set`，並換行。  
+例如:
+    A 的 First Set 為 abc;，則印出 A ;abc。結尾印出 END_OF_FIRST，並換行。  
+
