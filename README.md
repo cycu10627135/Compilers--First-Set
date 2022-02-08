@@ -32,3 +32,4 @@ First 的定義如下：
 例如:  
 A 的 First Set 為 abc;，則印出 A ;abc。結尾印出 END_OF_FIRST，並換行。  
 
+        
