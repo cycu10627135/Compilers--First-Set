@@ -13,8 +13,8 @@ First 的定義如下：
   
 ## Input Format
 每行開頭為一 Nonterminal，隔一個空白後接其規則。  
-不同規則會以|分隔  
-每條規則結束會以\n 做區隔  
+不同規則會以'|'分隔  
+每條規則結束會以'\n'做區隔  
 所有規則皆輸入完後，會以 END_OF_GRAMMAR 代表結束。  
 Nonterminal 與 Terminal 皆為單一字母。  
 可接受的輸入 Token 如下：  
