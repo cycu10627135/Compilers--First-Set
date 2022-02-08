@@ -32,4 +32,11 @@ First 的定義如下：
 例如:  
 A 的 First Set 為 abc;，則印出 A ;abc。結尾印出 END_OF_FIRST，並換行。  
 
-        
+### 參考答案:
+  
+| **Sample Input** | **Sample Output** | 
+|-------|:-----:|
+| S ABC<br /> A a|Cb|;<br /> B C|dA|;<br /> C e|f|;<br /> END_OF_GRAMMAR<br /> | A ;abef<br /> B ;def<br /> C ;ef<br /> S ;abdef<br /> END_OF_FIRST<br /> |
+| S AC$<br /> C c|;<br /> A aBCd|BQ<br /> B bB|;<br /> Q q|;<br /> END_OF_GRAMMAR<br /> | A ;abq<br /> B ;b<br /> C ;c<br /> Q ;q<br /> S $abcq<br /> END_OF_FIRST<br /> |
+| S aBDh<br /> B cC<br /> C bC|;<br /> D EF<br /> E g|;<br /> F f|;<br /> END_OF_GRAMMAR<br /> | B c<br /> C ;b<br /> D ;fg<br /> E ;g<br /> F ;f<br /> S a<br /> END_OF_FIRST<br /> |
+| printf(“HelloWorld”) | ID printf  <br /> LBR (  <br /> STRLIT " HelloWorld "  <br /> RBR ) |
