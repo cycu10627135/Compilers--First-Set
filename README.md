@@ -36,5 +36,5 @@ A 的 First Set 為 abc;，則印出 A ;abc。結尾印出 END_OF_FIRST，並換
   
 | **Sample Input** | **Sample Output** | 
 |-------|:-----:|
-| S ABC<br /> A a|Cb|;<br /> B C|dA|;<br /> C e|f|;<br /> END_OF_GRAMMAR<br /> | A ;abef<br /> B ;def<br /> C ;ef<br /> S ;abdef<br /> END_OF_FIRST<br /> |
+| S ABC<br /> A a\|Cb\|;<br /> B C\|dA\|;<br /> C e\|f\|;<br /> END_OF_GRAMMAR<br /> | A ;abef<br /> B ;def<br /> C ;ef<br /> S ;abdef<br /> END_OF_FIRST<br /> |
 | printf(“HelloWorld”) | ID printf  <br /> LBR (  <br /> STRLIT " HelloWorld "  <br /> RBR ) |
