@@ -12,11 +12,11 @@ First 的定義如下：
 請依據上述規則，計算出讀入 Grammar 的 First Set 並印出。  
   
 ## Input Format
-每行開頭為一 Nonterminal，隔一個空白後接其規則。  
+每行開頭為一`Nonterminal`，隔一個`空白`後接其規則。  
 不同規則會以`|`分隔  
 每條規則結束會以`\n`做區隔  
-所有規則皆輸入完後，會以 END_OF_GRAMMAR 代表結束。  
-Nonterminal 與 Terminal 皆為單一字母。  
+所有規則皆輸入完後，會以`END_OF_GRAMMAR`代表結束。  
+`Nonterminal`與`Terminal`皆為單一字母。  
 可接受的輸入 Token 如下：  
 * 單一大寫字母 A-Z 作為 Nonterminal  
 * 單一小寫字母 a-z 作為 Terminal  
