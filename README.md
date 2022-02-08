@@ -10,3 +10,20 @@ First 的定義如下：
 4. 承上，若 First(𝛽𝑛) = 𝜀，則 First(𝛽𝑛) = 𝐹𝑖𝑟𝑠𝑡(β1 β2 … β𝑛) = 𝜀。  
   
 請依據上述規則，計算出讀入 Grammar 的 First Set 並印出。  
+  
+## Input Format
+每行開頭為一 Nonterminal，隔一個空白後接其規則。  
+不同規則會以|分隔  
+每條規則結束會以\n 做區隔  
+所有規則皆輸入完後，會以 END_OF_GRAMMAR 代表結束。  
+Nonterminal 與 Terminal 皆為單一字母。  
+可接受的輸入 Token 如下：  
+* 單一大寫字母 A-Z 作為 Nonterminal  
+* 單一小寫字母 a-z 作為 Terminal  
+* ; 視為字串結尾  
+* $ 視為 EOF  
+  
+※此題不需考慮規則錯誤或輸入錯誤的情況，請以規則正確的前提來作答。  
+※此題規則不會有遞迴的情況。  
+  
+## Output Format
